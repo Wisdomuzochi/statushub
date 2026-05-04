@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environnement — JAMAIS commité
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
