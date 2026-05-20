@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg-primary:    #0a0a0f;
+  --bg-secondary:  #0f0f1a;
+  --bg-card:       #13131f;
+  --bg-card-hover: #1a1a2e;
+  --border:        #1e1e3a;
+  --green:         #00ff88;
+  --green-dim:     #00ff8833;
+  --red:           #ff4466;
+  --red-dim:       #ff446622;
+  --yellow:        #ffaa00;
+  --yellow-dim:    #ffaa0022;
+  --text-primary:  #e8e8f0;
+  --text-muted:    #666688;
+  --accent:        #5566ff;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
